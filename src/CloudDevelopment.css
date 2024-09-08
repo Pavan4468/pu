@@ -1,0 +1,68 @@
+/* src/CloudDevelopment.css */
+
+.page-container {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #002d72; /* Royal blue */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .page-header {
+    background-color: #003f8c; /* Darker royal blue */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .page-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .page-content {
+    margin: 20px 0;
+  }
+  
+  .page-content h2 {
+    color: #f0f0f0; /* Light gray */
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .page-content p {
+    line-height: 1.6;
+    margin: 10px 20px;
+    text-align: center;
+  }
+  
+  .section-image {
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .page-footer {
+    background-color: #003f8c; /* Darker royal blue */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    font-size: 1rem;
+  }
+  
+  .page-footer h3 {
+    margin-top: 0;
+  }
+  
+  .page-footer p {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,112 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    color: white;
+    background-color: #00274d; /* Dark blue background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .home-header {
+    width: 100%; /* Full width of the container */
+    background-color: #7091E6; /* Header background color */
+    color: black; /* Text color */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .header-content {
+    max-width: 1200px; /* Constrain maximum width */
+    margin: 0 auto;
+    padding: 0 15px; /* Padding to ensure content does not touch the edges */
+  }
+  
+  .header-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .header-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .support-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #E64833; /* Green button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .support-link:hover {
+    background-color: #ADBBDA;
+  }
+  
+  .search-section {
+    margin: 20px 0;
+    width: 100%; /* Full width of the container */
+    max-width: 600px;
+    padding: 0 15px; /* Padding for better alignment */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Include padding in the element's total width */
+  }
+  
+  .teachers-list {
+    width: 100%; /* Full width of the container */
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 0 15px; /* Padding for better alignment */
+  }
+  
+  .teacher-card {
+    background-color: #003366; /* Slightly darker blue for cards */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+  
+  .teacher-card h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .teacher-card p {
+    margin: 5px 0;
+  }
+  
+  .no-teachers {
+    text-align: center;
+    font-size: 1.2em;
+    color: #ffcccb; /* Light red for the no result message */
+  }
+  
+  .home-footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #ddd;
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+  .teacher-link{
+    color: white;
+  }
